@@ -11,7 +11,7 @@ server.route({
 	method:'GET',
 	path:'/',
 	handler: function (request, h) {
-		return h.redirect('https://jducraft.io');
+		return {message: "Welcome to JDUCraft's Backend :)"};
 	}
 });
 
