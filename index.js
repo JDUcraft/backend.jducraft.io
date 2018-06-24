@@ -19,6 +19,16 @@ server.route({
 });
 
 server.route({
+    method: 'POST',
+    path: '/hotspot-analyzer',
+    handler() {
+        return {
+            message: 'Authentication Service',
+        };
+    },
+});
+
+server.route({
     method: 'GET',
     path: '/hotspot-analyzer',
     handler() {
