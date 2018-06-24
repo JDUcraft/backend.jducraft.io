@@ -23,7 +23,7 @@ server.route({
     path: '/hotspot-analyzer',
     handler() {
         return {
-            message: 'Authentication Service',
+            message: 'OK',
         };
     },
 });
